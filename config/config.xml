@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <frame title="俄罗斯方块" w="1168" h="680" padding="16" border="7">
+        <panel className="com.catv.tetris.ui.BackGroundBlockPanel" x="0" y="0" w="1162" h="654"/>
+        <panel className="com.catv.tetris.ui.DatabaseBlockPanel" x="40" y="32" w="334" h="279"/>
+        <panel className="com.catv.tetris.ui.DiskBlockPanel" x="40" y="343" w="334" h="279"/>
+        <panel className="com.catv.tetris.ui.PlayBlockPanel" x="414" y="32" w="334" h="590"/>
+        <panel className="com.catv.tetris.ui.ButtonBlockPanel" x="788" y="32" w="334" h="70"/>
+        <panel className="com.catv.tetris.ui.NextBlockPanel" x="788" y="134" w="208" h="116"/>
+        <panel className="com.catv.tetris.ui.LevelBlockPanel" x="996" y="134" w="126" h="116"/>
+        <panel className="com.catv.tetris.ui.ScoreBlockPanel" x="788" y="282" w="334" h="160"/>
+        <panel className="com.catv.tetris.ui.PersonalBlockPanel" x="788" y="474" w="334" h="148"/>
+    </frame>
+    <gameBlock MIN_X="0" MAX_X="19" MIN_Y="0" MAX_Y="35">
+        <actBlock type="0">
+            <point x="10" y="0"/>
+            <point x="9" y="0"/>
+            <point x="11" y="0"/>
+            <point x="11" y="1"/>
+        </actBlock>
+        <actBlock type="1">
+            <point x="10" y="0"/>
+            <point x="9" y="0"/>
+            <point x="10" y="1"/>
+            <point x="11" y="1"/>
+
+        </actBlock>
+        <actBlock  type="2">
+            <point x="10" y="0"/>
+            <point x="9" y="0"/>
+            <point x="11" y="0"/>
+            <point x="10" y="1"/>
+        </actBlock>
+        <actBlock type="3">
+            <point x="10" y="0"/>
+            <point x="9" y="0"/>
+            <point x="11" y="0"/>
+            <point x="12" y="0"/>
+        </actBlock>
+        <actBlock type="4">
+            <point x="10" y="0"/>
+            <point x="9" y="0"/>
+            <point x="11" y="0"/>
+            <point x="9" y="1"/>
+        </actBlock>
+        <actBlock type="5">
+            <point x="10" y="0"/>
+            <point x="9" y="0"/>
+            <point x="9" y="1"/>
+            <point x="10" y="1"/>
+        </actBlock>
+        <actBlock type="6">
+            <point x="10" y="0"/>
+            <point x="9" y="1"/>
+            <point x="11" y="0"/>
+            <point x="10" y="1"/>
+        </actBlock>
+    </gameBlock>
+    <system>
+        <rule exp="1" score="0"/>
+        <rule exp="2" score="10"/>
+        <rule exp="3" score="20"/>
+        <rule exp="4" score="40"/>
+    </system>
+</game>
